@@ -1,0 +1,300 @@
+#selectMedia
+{
+	width:50%;
+	min-width:200px;
+}
+
+#addCategory, #selectMedia, #inputCategory
+{
+	padding:7px 10px 7px 10px;
+	margin:0px 5px 0px 5px;
+}
+
+.media_admin
+{
+	float:left;
+	width:175px;
+	margin-top:5px;
+}
+
+.mediaTitle
+{
+	margin:10px 0px 20px 0px;
+}
+
+.mediaTitle h3 .media_cat_rename
+{
+	display:none;
+}
+
+.mediaTitle h3:hover .media_cat_rename
+{
+	display:inline;
+	margin-left:5px;
+}
+
+.media_admin_cnt
+{
+	margin:10px 0px;
+}
+
+.like_status
+{
+	background-color: #FFCC99;
+	width:100%;
+	padding:5px;
+}
+
+#media_cat.action
+{
+	margin-bottom:0px;
+}
+
+#media_cat.action li .media_category_delete
+{
+	visibility:hidden;
+	margin-right:10px;
+	float:right;
+	position:relative;
+	margin-top:-25px;
+}
+
+#media_cat.action li:hover .media_category_delete
+{
+	visibility:visible;
+}
+
+#media_cat.action li:hover .media_category_delete a:hover
+{
+	text-decoration:underline;
+	background-color:transparent;
+}
+
+#media_cat.action .active, #media_cat_divers.action .active, #media_medias.action .active, #media_medias.action .active, #media_plat.action .active
+{
+	background-color:#cccccc;
+}
+
+#media_cat li
+{
+	min-height:25px;
+}
+
+.media_nb
+{
+	color: green;
+	margin-left:10px;
+}
+
+#loadMoreMedias
+{
+	background-color: #dddddd;
+	border:1px solid #ffffff;
+	width:100%;
+	padding:5px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#loadMoreMedias:hover
+{
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+}
+
+.mediathek_item_clip_holder_main
+{
+	height:128px;
+	width:98px;
+	position:relative;
+}
+
+.mediathek_item_clip_holder_border
+{
+	height:128px;
+	width:98px;
+	border:1px solid #DFDFDF;
+	background: none repeat scroll 0% 0% #FFF;
+}
+
+.mediathek_item_clip_holder
+{
+	position:absolute;
+	left:4px;
+	top:4px;
+	height:120px;
+	width:90px;
+	overflow:hidden;
+	display:block;
+	text-decoration:none;
+}
+
+.mediathek_like
+{
+	z-index:9999;
+	background-color: rgba(255, 255, 255, 0.90);
+	position:relative;
+	margin-top:95px;
+	display:none;
+	font-weight:bold;
+	font-size:8pt;
+	padding:2px 5px;
+}
+
+.mediathek_item_clip_holder_border:hover .mediathek_like
+{
+	display:block;
+}
+
+.mediaitem_row .extra_info_link
+{
+	font-size:10px;
+}
+
+ul.viewimage > li
+{
+	float:left;
+	height:170px;
+	margin:10px;
+	width:97px;
+}
+
+ul.viewimage
+{
+	clear:both;
+}
+
+#media_platforms
+{
+	background-color:#FFFFFF;
+	padding:20px;
+	max-height:500px;
+	overflow:auto;
+}
+
+#media_platforms_actions 
+{
+	float:right;
+	margin-top:10px;
+}
+
+#media_platforms_title
+{
+	margin-bottom:10px;
+}
+
+#media_platforms_subtitle
+{
+	margin-bottom:15px;
+}
+
+#js_media_game_settings
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:url('/module/medialibrary/static/image/thickbox_bg.png');
+	z-index:1000;
+	width:500px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+  	border-radius:10px;  	
+	padding:14px;		
+	display:none;
+}
+
+.media_platform_line
+{
+	float:none;
+	clear:both;
+	width: 450px;
+	height:25px;
+}
+
+.media_platform_line .media_platform_checkbox, .media_platform_line .media_platform_name
+{
+	float:left;
+	margin-right:10px;
+}
+
+.media_platform_line .media_platform_info
+{
+	float:right;
+	margin-right:20px;
+	display:none;
+}
+
+.media_platform_info input
+{
+	width:220px;
+}
+
+.media_platform_item_holder
+{
+	margin:10px;
+}
+
+#media_view_picture
+{
+	float:left;
+	padding:0px 10px 10px 0px;
+}
+
+#media_view_details
+{
+	margin:0px 0px 0px 190px;
+}
+
+.media_view_info_field
+{
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	padding: 0px 5px 0px 5px;
+	background-color:#eeeeee;
+}
+
+.media_view_info_value
+{
+	margin-bottom:9px;
+	padding: 1px 8px 2px 8px;
+	border-bottom: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #cccccc;
+}
+
+.js_like_link_like
+{
+	border-bottom: 2px solid #CCC;
+	padding:3px 5px;
+	text-transform:uppercase;
+	color: #333;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#media_likes
+{
+	margin-top:15px;
+}
+
+.media_account_cnt td
+{
+	padding:5px;
+	vertical-align:middle;
+	background-color:#eeeeee;
+	text-align:center;
+}
+
+.media_account_cnt th
+{
+	text-align:center;
+	background-color:#dddddd;
+}
+
+.media_account_picture
+{
+	width:80px;
+	text-align:center;
+}
