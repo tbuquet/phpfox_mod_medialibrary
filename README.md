@@ -30,12 +30,14 @@ Tested with version 3.8.0 of PHPFox.
 - Find medialibrary in the list, and click to the install icon.
 - Get a API Gui for GiantBomb, then replace the 'xxxxxxxx' of the constant GIANTBOMB_KEY in "module/medialibrary/include/service/game.class.php"
 - Edit "include/setting/common.sett.php" and add the following lines at the end:
+```php
 $_CONF['medialibrary.dir_media_movie'] = $_CONF['core.dir_pic'] . 'mediathek' . PHPFOX_DS . 'movie' . PHPFOX_DS;
 $_CONF['medialibrary.url_media_movie'] = $_CONF['core.url_pic'] . 'mediathek/movie/';
 $_CONF['medialibrary.dir_media_series'] = $_CONF['core.dir_pic'] . 'mediathek' . PHPFOX_DS . 'series' . PHPFOX_DS;
 $_CONF['medialibrary.url_media_series'] = $_CONF['core.url_pic'] . 'mediathek/series/';
 $_CONF['medialibrary.dir_media_game'] = $_CONF['core.dir_pic'] . 'mediathek' . PHPFOX_DS . 'game' . PHPFOX_DS;
 $_CONF['medialibrary.url_media_game'] = $_CONF['core.url_pic'] . 'mediathek/game/';
+```
 
 - Get the IMDBPHP library [Link](https://sourceforge.net/p/imdbphp/) and extract it to "www/thirdpartylibs/imdb/"
 - Note: In this version of the project, the users will have to reenter their address for it to appear on GoogleMap
