@@ -40,7 +40,6 @@ $_CONF['medialibrary.url_media_game'] = $_CONF['core.url_pic'] . 'mediathek/game
 ```
 
 - Get the IMDBPHP library [Link](https://sourceforge.net/p/imdbphp/) and extract it to "www/thirdpartylibs/imdb/"
-- Note: In this version of the project, the users will have to reenter their address for it to appear on GoogleMap
 
 ##TODO##
 - Proper integration of IMDBPHP searching class
